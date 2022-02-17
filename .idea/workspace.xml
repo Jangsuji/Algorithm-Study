@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/min_max.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/구간합.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/숫자 카드.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/전기버스.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +64,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../works" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.특별한 정렬">
-    <configuration name="부분집합의 합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.글자수">
+    <configuration name="문자열 비교" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -77,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/2. List2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/3. String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/2. List2/부분집합의 합.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/3. String/문자열 비교.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="숫자 카드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="글자수" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,11 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/1. List1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/3. String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/1. List1/숫자 카드.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/3. String/글자수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="색칠하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="회문" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/2. List2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/3. String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/2. List2/색칠하기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/3. String/회문.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.글자수" />
+        <item itemvalue="Python.문자열 비교" />
+        <item itemvalue="Python.회문" />
         <item itemvalue="Python.특별한 정렬" />
         <item itemvalue="Python.이진탐색" />
-        <item itemvalue="Python.부분집합의 합" />
-        <item itemvalue="Python.색칠하기" />
-        <item itemvalue="Python.숫자 카드" />
       </list>
     </recent_temporary>
   </component>
@@ -268,14 +264,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Intermediate/2. List2/특별한 정렬.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
+          <line>32</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="a" />
+        <watch expression="w" />
+        <watch expression="w" />
       </configuration>
     </watches-manager>
   </component>
