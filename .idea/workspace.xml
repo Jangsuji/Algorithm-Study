@@ -64,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../works" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.구간합">
+  <component name="RunManager" selected="Python.min_max">
     <configuration name="숫자 카드" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +151,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.구간합" />
         <item itemvalue="Python.숫자 카드" />
         <item itemvalue="Python.전기버스" />
         <item itemvalue="Python.min_max" />
@@ -204,6 +203,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
