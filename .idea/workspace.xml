@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,7 @@
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Intermediate\3. String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.수열 편집">
+  <component name="RunManager" selected="Python.노드의 거리">
     <configuration name="수열 편집" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.노드의 거리" />
         <item itemvalue="Python.수열 편집" />
         <item itemvalue="Python.암호" />
         <item itemvalue="Python.수열 합치기" />
         <item itemvalue="Python.숫자 추가" />
-        <item itemvalue="Python.노드의 거리" />
       </list>
     </recent_temporary>
   </component>
