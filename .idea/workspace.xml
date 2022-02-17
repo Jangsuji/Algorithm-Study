@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Intermediate/1. List1/구간합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/1. List1/숫자 카드.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/1. List1/전기버스.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gitTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/I.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/min_max.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/List1/min_max.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deangkki.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukki.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,15 +213,13 @@
           <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intermediate/1. List1/구간합.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="cards" />
-        <watch expression="[int(i) for i in list(cards)]" language="Python" />
-        <watch expression="list(cards)" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sukki.py">
