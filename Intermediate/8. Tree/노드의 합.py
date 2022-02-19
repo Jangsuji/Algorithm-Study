@@ -33,26 +33,16 @@
 test_case = int(input())
 for t in range(test_case):
 
-  array_list = []
-  N, M, K = map(int, input().split())
-  data_list = list(map(int, input().split()))
-  i = M
+  N, M, L = map(int, input().split())
+  data_list = [0]*(N+1)
+  for _ in range(M):
+    idx, value = map(int, input().split())
+    data_list[idx] = value
 
-  for _ in range(K):
-    if i == len(data_list):
-      data_list.insert(i, data_list[i - 1] + data_list[0])
-      i = M - 1
-    else:
-      data_list.insert(i, data_list[i - 1] + data_list[i])
-      i += M
-      if i > len(data_list):
-        i -= len(data_list)
+  for i in reversed(list(range(N-M))):
+    try:
+      data_list[i+1] = data_list[2*(i+1)]+data_list[2*(i+1)+1]
+    except:
+      data_list[i + 1] = data_list[2 * (i + 1)]
+  print("#{0} {1}".format(t+1,data_list[L]))
 
-  answer = list(reversed(data_list))[:10]
-  print("#{0}".format(t + 1), end=" ")
-
-  for i, num in enumerate(answer):
-    if i == len(answer) - 1:
-      print("{0}".format(num))
-    else:
-      print("{0} ".format(num), end="")

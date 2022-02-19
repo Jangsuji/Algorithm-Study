@@ -43,8 +43,5 @@ for t in range(test_case):
             array = array_list.pop(0)
             stack, array_list = binary_searching(array, len(array), stack,array_list)
         except:
-            # print(stack)
-            stack = [i for i in stack if i != 0]
-            # print(stack)
             print("#{0} {1} {2}".format(t+1, stack[0], stack[len(stack)//2-1]))
             break
