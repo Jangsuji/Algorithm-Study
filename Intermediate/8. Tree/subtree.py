@@ -21,13 +21,27 @@ test_case = int(input())
 for t in range(test_case):
   sibiling1 = {}
   sibiling2 = {}
-  result = []
+  cnt = 0
+
   E,N = map(int, input().split())
+  result = [N]
   data_list = list(map(int, input().split()))
   for i in range(E):
     if data_list[i*2] in sibiling1:
       sibiling2[data_list[i * 2]] = data_list[i * 2 + 1]
     else:
       sibiling1[data_list[i*2]] = data_list[i*2+1]
-  result.append(N)
+
+  while True:
+    try:
+      node = result.pop()
+      cnt += 1
+      if node in sibiling1:
+        result.append(sibiling1[node])
+      if node in sibiling2:
+        result.append(sibiling2[node])
+    except:
+      break
+
+  print("#{} {}".format(t+1,cnt))
 

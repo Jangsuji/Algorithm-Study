@@ -13,31 +13,38 @@
 ============================================
 '''
 
+import math
+
+def binary_searching(array, N,stack,array_list):
+    try:
+        h = int(math.log2(N))
+        if N == 2:
+            select_idx =1
+        elif N <= 2**h:
+            select_idx = N//2
+        else:
+            select_idx = 2**h-1
+        stack.append(array[select_idx])
+        array_list.append(array[:select_idx])
+        array_list.append(array[select_idx+1:])
+    except:
+        stack.append(array.pop())
+    return stack, array_list
+
+
 test_case = int(input())
 for t in range(test_case):
+    stack = []
 
-    array_list = []
-    N, M = map(int, input().split())
-    for i in range(M):
-        array_list.append(list(map(int, input().split())))
-    linked_array = array_list[0]
+    array_list = [[i+1 for i in range(int(input()))]]
 
-    for array in array_list[1:M]:
-        for idx, val in enumerate(linked_array):
-            if val > array[0]:
-                for i in list(reversed(array)):
-                    linked_array.insert(idx, i)
-                    # print(linked_array)
-                break
-            elif idx == len(linked_array) - 1:
-                linked_array.extend(array)
-                break
-
-    answer = list(reversed(linked_array))[:10]
-    print("#{0}".format(t + 1), end=" ")
-
-    for i, num in enumerate(answer):
-        if i == len(answer) - 1:
-            print("{0}".format(num))
-        else:
-            print("{0} ".format(num), end="")
+    while True:
+        try:
+            array = array_list.pop(0)
+            stack, array_list = binary_searching(array, len(array), stack,array_list)
+        except:
+            # print(stack)
+            stack = [i for i in stack if i != 0]
+            # print(stack)
+            print("#{0} {1} {2}".format(t+1, stack[0], stack[len(stack)//2-1]))
+            break
