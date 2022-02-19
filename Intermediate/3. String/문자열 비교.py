@@ -1,13 +1,21 @@
 '''
 ============================================
 [입력]
-3
+5
 XYPV
 EOGGXYPVSY
 STJJ
 HOFSTJPVPP
 ZYJZXZTIBSDG
 TTXGZYJZXZTIBSDGWQLW
+rithm
+a pattern matching algorithm
+GYJZXZTIBSDG
+TTXGZYJZXZTIBSDGWQLW
+GYJZXZTIBSDG
+TTXGZYJZXZTIBSDGYJZXZTIBSDG
+
+
 
 [출력]
 #1 1
@@ -28,24 +36,20 @@ for t in range(test_case):
   step2 = len2-1
   flag = False
   flag2 = False
-  cnt = 0
 
   while True:
     if str1[step] == str2[-1]:
-      cnt = 1
       while True:
-        # print(step, step2)
-        if str1[step] != str2[step2]:# or step2==0:
+        if str1[step] != str2[step2]:
           flag2 = True
           break
         step -= 1
         step2 -= 1
-        cnt += 1
         if step2 == -1:
           flag = True
           break
       if flag2:
-        step += cnt+len2
+        step += len2
     elif str1[step] in str2:
       step += r_str2.index(str1[step])
     else:

@@ -1,6 +1,6 @@
 '''
 ============================================
-[입력]s
+[입력]
 3
 4 4
 2 3 4 5
@@ -46,17 +46,11 @@ for t in range(test_case):
             if val > array[0]:
                 for i in list(reversed(array)):
                     linked_array.insert(idx, i)
-                    # print(linked_array)
                 break
             elif idx == len(linked_array) - 1:
                 linked_array.extend(array)
                 break
 
     answer = list(reversed(linked_array))[:10]
-    print("#{0}".format(t + 1), end=" ")
-
-    for i, num in enumerate(answer):
-        if i == len(answer) - 1:
-            print("{0}".format(num))
-        else:
-            print("{0} ".format(num), end="")
+    a = ' '.join(str(e) for e in answer)
+    print("#{0} {1}".format(t+1,a))

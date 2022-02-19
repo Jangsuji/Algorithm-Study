@@ -3,7 +3,8 @@
 
 
 피자 굽기.py
-* runtime error
+* Fail(runtime error)
+* 9개 맞음
 
 
 미로의 거리.py

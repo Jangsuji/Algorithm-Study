@@ -30,16 +30,15 @@ for t in range(test_case):
   while True:
     if len(pot) != N:
       try:
-        pot.insert(0, cheese_list[0])
-        del cheese_list[0]
+        pizza = cheese_list.pop(0)
+        pot.insert(0, pizza)
       except:
         pot.insert(0, (100, 100))
         cnt += 1
     else:
-      pot.insert(0, (pot[-1][0], pot[-1][1] // 2))
-      del pot[-1]
-      if pot[0][1] == 0:
-        del pot[0]
+      pizza = pot.pop()
+      if pizza[1] // 2 != 0:
+        pot.insert(0, (pizza[0], pizza[1] // 2))
     if cnt == N - 1:
       break
 
