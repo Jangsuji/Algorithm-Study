@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/8. Tree/노드의 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/8. Tree/노드의 합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/8. Tree/이진 힙.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/8. Tree/이진 힙.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/8. Tree/이진탐색.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/8. Tree/이진탐색.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/dd.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -18,10 +18,8 @@ import math
 def binary_searching(array, N,stack,array_list):
     try:
         h = int(math.log2(N))
-        if N == 2:
-            select_idx =1
-        elif N <= 2**h:
-            select_idx = N//2
+        if 2**h <= N < 2**h + 2**(h-1):
+            select_idx = N-2**(h-1)
         else:
             select_idx = 2**h-1
         stack.append(array[select_idx])
