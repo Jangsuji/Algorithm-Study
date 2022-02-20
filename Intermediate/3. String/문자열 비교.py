@@ -47,6 +47,8 @@ for t in range(test_case):
   result = BruteForce(p,q)
   print("#{0} {1}".format(t+1,result))
 
+
+# ============================================
 # test_case = int(input())
 #
 # for t in range(test_case):

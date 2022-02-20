@@ -5,6 +5,7 @@
 ABCCB
 NNNASBBSNV
 UKJWHGGHNFTCRRCTWLALX
+aeaeeaa
 
 [출력]
 #1 1
@@ -18,7 +19,7 @@ test_case = int(input())
 def removal(data_str):
   flag = 0
   my_str = list(data_str)
-  for i in range(len(data_str)):
+  for i in range(1,len(data_str)):
     if data_str[i-1] == data_str[i] and len(data_str)!=1:
       try:
         del my_str[i-1]
