@@ -39,8 +39,7 @@ for t in range(test_case):
       pizza = pot.pop()
       if pizza[1] // 2 != 0:
         pot.insert(0, (pizza[0], pizza[1] // 2))
-    if cnt == N - 1:
+    if cnt == N:
       break
 
-  a = [i for i in pot if i[0] != 100]
-  print("#{0} {1}".format(t + 1, a[0][0]))
+  print("#{0} {1}".format(t + 1, pizza[0]))
