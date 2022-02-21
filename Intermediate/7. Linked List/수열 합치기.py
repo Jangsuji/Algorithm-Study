@@ -44,8 +44,7 @@ for t in range(test_case):
     for array in array_list[1:M]:
         for idx, val in enumerate(linked_array):
             if val > array[0]:
-                for i in list(reversed(array)):
-                    linked_array.insert(idx, i)
+                linked_array = linked_array[:idx]+array+linked_array[idx:]
                 break
             elif idx == len(linked_array) - 1:
                 linked_array.extend(array)
