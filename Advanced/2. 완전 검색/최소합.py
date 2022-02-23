@@ -49,28 +49,3 @@ for t in range(test_case):
         result.append(sum)
     print("#{0} {1}".format(t+1, min(result)))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
