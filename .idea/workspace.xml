@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advanced/4. 분할 정복/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/4. 분할 정복/이진 탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/4. 분할 정복/퀵 정렬.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/2. 완전 검색/최소합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/2. 완전 검색/최소합.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/베이비진 게임.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/베이비진 게임.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/컨테이너 운반.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/컨테이너 운반.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/화물 도크.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/화물 도크.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,16 +65,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Intermediate/3. String" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Advanced/4. 분할 정복" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Advanced\4. 분할 정복" />
+      <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Advanced\2. 완전 검색" />
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Intermediate\3. String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.화물 도크">
-    <configuration name="베이비진 게임" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.이진 탐색">
+    <configuration name="이진 탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/4. 분할 정복" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/베이비진 게임.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/4. 분할 정복/이진 탐색.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,6 +131,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/3. 탐욕 알고리즘/화물 도크.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="병합 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/4. 분할 정복" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="최소합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="퀵 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,32 +231,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/완전 검색" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/4. 분할 정복" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/완전 검색/최소합.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="전자카트" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/완전 검색" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/완전 검색/전자카트.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/4. 분할 정복/퀵 정렬.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.이진 탐색" />
+        <item itemvalue="Python.퀵 정렬" />
+        <item itemvalue="Python.병합 정렬" />
         <item itemvalue="Python.화물 도크" />
         <item itemvalue="Python.컨테이너 운반" />
-        <item itemvalue="Python.베이비진 게임" />
-        <item itemvalue="Python.최소합" />
-        <item itemvalue="Python.전자카트" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +471,66 @@
           <line>57</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/병합 정렬.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/퀵 정렬.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/4. 분할 정복/이진 탐색.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -478,6 +540,13 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="left" />
+        <watch expression="right" />
+        <watch expression="result" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/sukki.py">
