@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/그룹 나누기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/그룹 나누기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/5. Stack2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/5. Stack2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Intermediate\3. String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.그룹 나누기">
+  <component name="RunManager" selected="Python.배열 최소 합">
     <configuration name="최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -266,10 +267,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.배열 최소 합" />
         <item itemvalue="Python.그룹 나누기" />
         <item itemvalue="Python.연산" />
         <item itemvalue="Python.최소 생산 비용" />
-        <item itemvalue="Python.배열 최소 합" />
         <item itemvalue="Python.전기버스2" />
       </list>
     </recent_temporary>
@@ -344,21 +345,6 @@
           <url>file://$PROJECT_DIR$/Intermediate/7. Linked List/수열 합치기.py</url>
           <line>54</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Intermediate/6. Queue/피자 굽기.py</url>
@@ -600,6 +586,11 @@
           <line>38</line>
           <option name="timeStamp" value="152" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -611,10 +602,9 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="groups" />
-        <watch expression="application" />
-        <watch expression="line" />
-        <watch expression="bool(visited[1:])" language="Python" />
+        <watch expression="array_list" />
+        <watch expression="i" />
+        <watch expression="results" />
       </configuration>
     </watches-manager>
   </component>

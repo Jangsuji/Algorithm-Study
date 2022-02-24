@@ -1,7 +1,7 @@
 '''
 ============================================
 [입력]
-1
+4
 4
 10 3 2 1
 10 2 5 1
@@ -30,69 +30,22 @@
 ============================================
 '''
 
-
-def queen_check(mask):
-  flag = False
-  cnt = 0
-  for q in mask:
-    if sum(q)>0:
-      cnt+=1
-  if cnt==N:
-    flag = "on"
-  return flag
-
+import itertools
 
 test_case = int(input())
 for t in range(test_case):
 
-  array_list = []
-  N = int(input())
-  for i in range(N):
-    array_list.append(list(map(int, input().split())))
-  mask1 = [[0]*N for _ in range(N)]
-  mask2 = [[0]*N for _ in range(N)]
-  candidate = []
-  results = []
+    N = int(input())
+    array_list = [list(map(int, input().split())) for _ in range(N)]
 
-  for num in range(1,11):
-    temp = []
-    for i in range(N):
-      for j in range(N):
-        if array_list[i][j] == num:
-          mask1[i][j] = 1
-          mask2[j][i] = 1
-          temp.append((i,j))
-    flag1 = queen_check(mask1)
-    flag2 = queen_check(mask2)
-    candidate.append(temp)
-    if flag1 and flag2:
-      break
+    arr = range(N)
+    nPr = itertools.permutations(arr,N)
 
-  re = candidate[:]
+    results = []
 
-  i = 0
-  j = 0
-  while True:
-    select = candidate.pop(0)
-    results.append(select)
-    while True:
-      try:
-        if candidate[j][0] == select[0]:
-          candidate.pop(j)
-          j-=1
-        elif candidate[j][1] == select[1]:
-          candidate.pop(j)
-          j-=1
-        j+=1
-      except:
-        if j == len(candidate):
-          j = 0
-          break
-    if len(results) == N:
-      a = [array_list[i][j] for (i,j) in results]
-      print("#{0} {1}".format(t+1,sum(a)))
-      break
-    elif len(results)+len(candidate)<N:
-      re.pop(0)
-      candidate = re
-      results = []
+    for i in nPr:
+        a = 0
+        for idx,val in enumerate(i):
+            a += array_list[idx][val]
+        results.append(a)
+    print("#{} {}".format(t+1, min(results)))
