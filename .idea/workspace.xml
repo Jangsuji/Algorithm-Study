@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제/최소 신장 트리.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +82,8 @@
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Intermediate\3. String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.연산">
-    <configuration name="최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.최소 신장 트리">
+    <configuration name="최소 신장 트리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/5. 백트래킹" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/5. 백트래킹/최소 생산 비용.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제/최소 신장 트리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.최소 신장 트리" />
         <item itemvalue="Python.연산" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.배열 최소 합" />
         <item itemvalue="Python.그룹 나누기" />
-        <item itemvalue="Python.최소 생산 비용" />
       </list>
     </recent_temporary>
   </component>
@@ -630,6 +628,21 @@
           <line>37</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제/최소 신장 트리.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제/최소 신장 트리.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/7. 그래프의 최소 비용 문제/최소 신장 트리.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -641,12 +654,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="N" />
-        <watch expression="M" language="Python" />
-        <watch expression="choice" language="Python" />
-        <watch expression="num" language="Python" />
-        <watch expression="best" language="Python" />
-        <watch expression="money" />
+        <watch expression="G[minIndex]" language="Python" />
+        <watch expression="minIndex" />
+        <watch expression="min" />
+        <watch expression="G" />
       </configuration>
     </watches-manager>
   </component>
