@@ -18,6 +18,8 @@ def CoinChange(choice, num, N):
 
     if best <= num:
         return
+    # elif choice[9]:
+    #     return
     else:
         for i in range(len(coin)):
             choice[num] = coin[i]
@@ -33,9 +35,7 @@ def CoinChange(choice, num, N):
                     money -= 10
                 if money == M:
                     best = num+1
-                    print(choice)
             CoinChange(choice, num+1, N)
-
 
 
 test_case = int(input())
@@ -46,3 +46,12 @@ for t in range(test_case):
     choice = [0]*10
     CoinChange(choice,0,N)
     print("#{} {}".format(t+1,best))
+
+
+
+
+
+
+
+
+

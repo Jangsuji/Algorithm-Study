@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/5. Stack2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/5. Stack2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/5. Stack2/배열 최소 합.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,7 +84,7 @@
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Intermediate\3. String" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.배열 최소 합">
+  <component name="RunManager" selected="Python.연산">
     <configuration name="최소 생산 비용" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,27 +232,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="전기버스2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="gitTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/5. 백트래킹" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/5. 백트래킹/전기버스2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="구간합" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,13 +253,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gitTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.연산" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.배열 최소 합" />
         <item itemvalue="Python.그룹 나누기" />
-        <item itemvalue="Python.연산" />
         <item itemvalue="Python.최소 생산 비용" />
-        <item itemvalue="Python.전기버스2" />
       </list>
     </recent_temporary>
   </component>
@@ -548,18 +557,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py</url>
-          <line>34</line>
+          <line>37</line>
           <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/그룹 나누기.py</url>
@@ -591,6 +590,46 @@
           <line>49</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -602,9 +641,12 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="array_list" />
-        <watch expression="i" />
-        <watch expression="results" />
+        <watch expression="N" />
+        <watch expression="M" language="Python" />
+        <watch expression="choice" language="Python" />
+        <watch expression="num" language="Python" />
+        <watch expression="best" language="Python" />
+        <watch expression="money" />
       </configuration>
     </watches-manager>
   </component>
