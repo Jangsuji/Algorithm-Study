@@ -12,39 +12,51 @@
 #3 8
 ============================================
 '''
+import math
 
-def CoinChange(choice, num, N):
+
+def serching(residue,cnt):
     global best
 
-    if best <= num:
+    if cnt>=best:
         return
-    # elif choice[9]:
-    #     return
+    if residue == 0:
+        best = cnt
+        return
+
+    elif residue > 0:
+        b = round(math.log2(residue) * (+1))
+        serching(residue - (2 ** b*(+1)),cnt+1)
     else:
-        for i in range(len(coin)):
-            choice[num] = coin[i]
-            money = N
-            for j in choice[:best]:
-                if j == '+1':
-                    money += 1
-                elif j == '-1':
-                    money -= 1
-                elif j == '*2':
-                    money *= 2
-                elif j == '-10':
-                    money -= 10
-                if money == M:
-                    best = num+1
-            CoinChange(choice, num+1, N)
+        b = round(math.log2(residue*(-1)))
+        if b <= a:
+            serching(residue - (2 ** b * (-1)),cnt+1)
+
+        if residue <= -10:
+            b = round(math.log2(residue / (-10)))
+            if a < b:
+                b = a
+            serching(residue - (2 ** b *(-10)),cnt+1)
+
 
 
 test_case = int(input())
 for t in range(test_case):
     N, M = map(int, input().split())
-    coin = ['+1','-1','*2','-10']#[10,50,100,400,500]
-    best = 10
-    choice = [0]*10
-    CoinChange(choice,0,N)
+
+    a = round(math.log2(M / N))
+    residue = M - (2 ** a * N)
+
+    try:
+        if a<round(math.log2(residue * (+1))):
+            a = a+1
+            residue = M - (2 ** a * N)
+    except:
+        pass
+
+    best = 100
+
+    serching(residue,cnt=a)
     print("#{} {}".format(t+1,best))
 
 

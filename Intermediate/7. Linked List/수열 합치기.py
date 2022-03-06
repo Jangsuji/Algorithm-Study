@@ -32,6 +32,108 @@
 ============================================
 '''
 
+# test_case = int(input())
+# for t in range(test_case):
+#
+#     array_list = []
+#     N, M = map(int, input().split())
+#     for i in range(M):
+#         array_list.append(list(map(int, input().split())))
+#     linked_array = array_list[0]
+#
+#     for array in array_list[1:M]:
+#         for idx, val in enumerate(linked_array):
+#             if val > array[0]:
+#                 linked_array = linked_array[:idx]+array+linked_array[idx:]
+#                 break
+#             elif idx == len(linked_array) - 1:
+#                 linked_array.extend(array)
+#                 break
+#
+#     answer = list(reversed(linked_array))[:10]
+#     a = ' '.join(str(e) for e in answer)
+#     print("#{0} {1}".format(t+1,a))
+
+# ================================================
+
+
+class Node:
+    def __init__(self,data=None,next=None):
+        self.data = data
+        self.next = next
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def insert_at_begining(self, data):
+        node = Node(data, self.head)
+        self.head = node
+
+    def insert_at_end(self,data):
+        if self.head is None:
+            self.head = Node(data, None)
+            return
+        itr = self.head
+        while itr.next:
+            itr = itr.next
+        itr.next = Node(data, None)
+
+    def insert_values(self, data_list):
+        self.head = None
+        for data in data_list:
+            self.insert_at_end(data)
+
+    def print(self):
+        if self.head is None:
+            print("empty")
+            return
+        itr = self.head
+        llstr = []
+        while itr:
+            llstr.append(int(itr.data))
+            itr = itr.next
+        return llstr
+
+    def get_length(self):
+        count = 0
+        itr = self.head
+        while itr:
+            count+=1
+            itr = itr.next
+        return count
+
+    def remove_at(self, index):
+        if index<0 or index>=self.get_length():
+            raise Exception("Invalid index")
+        if index==0:
+            self.head = self.head.next
+            return
+        count = 0
+        itr = self.head
+        while itr:
+            if count == index-1:
+                pass
+            itr = itr.next
+            count += 1
+
+    def insert_at(self,index,data):
+        if index<0 or index>self.get_length():
+            raise Exception("Invalid index")
+        if index == 0:
+            self.insert_at_begining(data)
+            return
+        count = 0
+        itr = self.head
+        while itr:
+            if count == index-1:
+                node = Node(data,itr.next)
+                itr.next = node
+                break
+            itr = itr.next
+            count+=1
+
+
 test_case = int(input())
 for t in range(test_case):
 
@@ -39,17 +141,21 @@ for t in range(test_case):
     N, M = map(int, input().split())
     for i in range(M):
         array_list.append(list(map(int, input().split())))
-    linked_array = array_list[0]
 
-    for array in array_list[1:M]:
-        for idx, val in enumerate(linked_array):
-            if val > array[0]:
-                linked_array = linked_array[:idx]+array+linked_array[idx:]
+    ll = LinkedList()
+    ll.insert_values(array_list[0])
+    # ll.print()
+    for array in array_list[1:]:
+        for idx, node in enumerate(ll.print()):
+            if array[0]<node:
+                for i in range(M):
+                    ll.insert_at(idx,array[M-1-i])
                 break
-            elif idx == len(linked_array) - 1:
-                linked_array.extend(array)
-                break
-
-    answer = list(reversed(linked_array))[:10]
+            if idx == M-1:
+                for i in range(M):
+                    ll.insert_at_end(array[i])
+        # a = ll.print()
+    result = ll.print()
+    answer = list(reversed(result))[:10]
     a = ' '.join(str(e) for e in answer)
     print("#{0} {1}".format(t+1,a))
