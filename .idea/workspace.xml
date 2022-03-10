@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2c17d4-9ca8-4ecb-a919-15fb4ce204c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/10. 동적계획법의 적용/부분 집합의 합.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/10. 동적계획법의 적용/해피박스.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced/6. 그래프의 기본과 탐색/연산.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/7. Linked List/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/7. Linked List/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/7. Linked List/수열 합치기.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/7. Linked List/수열 합치기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/9. 동적계획법의 소개/이항계수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced/9. 동적계획법의 소개/타일 붙이기.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <recent name="C:\Users\User\Desktop\pythonProject\Algorithm-Study\Advanced\4. 분할 정복" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.수열 합치기">
+  <component name="RunManager" selected="Python.test">
     <configuration name="수열 합치기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -446,9 +446,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.수열 합치기" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.연산" />
+        <item itemvalue="Python.수열 합치기" />
         <item itemvalue="Python.이진탐색" />
         <item itemvalue="Python.부분 집합의 합" />
       </list>
